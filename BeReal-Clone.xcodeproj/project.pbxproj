@@ -1,0 +1,502 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2727F56829CBB77A0004118B /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F56729CBB77A0004118B /* FeedViewController.swift */; };
+		2727F56A29CBB78F0004118B /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F56929CBB78F0004118B /* PostViewController.swift */; };
+		2727F56C29CBB7A70004118B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F56B29CBB7A70004118B /* User.swift */; };
+		2727F56E29CBB7B10004118B /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F56D29CBB7B10004118B /* Post.swift */; };
+		2727F57029CBB7DF0004118B /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F56F29CBB7DF0004118B /* PostCell.swift */; };
+		2727F57229CBD18D0004118B /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2727F57129CBD18D0004118B /* DateFormatter+Extensions.swift */; };
+		27D72B4129CBB30200AC4ACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D72B4029CBB30200AC4ACA /* AppDelegate.swift */; };
+		27D72B4329CBB30200AC4ACA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D72B4229CBB30200AC4ACA /* SceneDelegate.swift */; };
+		27D72B4529CBB30200AC4ACA /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D72B4429CBB30200AC4ACA /* LoginViewController.swift */; };
+		27D72B4829CBB30200AC4ACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D72B4629CBB30200AC4ACA /* Main.storyboard */; };
+		27D72B4A29CBB30400AC4ACA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27D72B4929CBB30400AC4ACA /* Assets.xcassets */; };
+		27D72B4D29CBB30400AC4ACA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27D72B4B29CBB30400AC4ACA /* LaunchScreen.storyboard */; };
+		27D72B5529CBB38800AC4ACA /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D72B5429CBB38800AC4ACA /* SignUpViewController.swift */; };
+		27D72B5829CBB5C800AC4ACA /* ParseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 27D72B5729CBB5C800AC4ACA /* ParseSwift */; };
+		27D72B5B29CBB61D00AC4ACA /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 27D72B5A29CBB61D00AC4ACA /* Alamofire */; };
+		27D72B5E29CBB62B00AC4ACA /* AlamofireImage in Frameworks */ = {isa = PBXBuildFile; productRef = 27D72B5D29CBB62B00AC4ACA /* AlamofireImage */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2727F56729CBB77A0004118B /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		2727F56929CBB78F0004118B /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		2727F56B29CBB7A70004118B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2727F56D29CBB7B10004118B /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		2727F56F29CBB7DF0004118B /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		2727F57129CBD18D0004118B /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		2727F57A29CC269E0004118B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		27D72B3D29CBB30200AC4ACA /* BeReal-Clone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BeReal-Clone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27D72B4029CBB30200AC4ACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		27D72B4229CBB30200AC4ACA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		27D72B4429CBB30200AC4ACA /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		27D72B4729CBB30200AC4ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27D72B4929CBB30400AC4ACA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27D72B4C29CBB30400AC4ACA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		27D72B4E29CBB30400AC4ACA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		27D72B5429CBB38800AC4ACA /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27D72B3A29CBB30200AC4ACA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D72B5829CBB5C800AC4ACA /* ParseSwift in Frameworks */,
+				27D72B5B29CBB61D00AC4ACA /* Alamofire in Frameworks */,
+				27D72B5E29CBB62B00AC4ACA /* AlamofireImage in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2727F57329CC1F9B0004118B /* Login and Signup */ = {
+			isa = PBXGroup;
+			children = (
+				27D72B4429CBB30200AC4ACA /* LoginViewController.swift */,
+				27D72B5429CBB38800AC4ACA /* SignUpViewController.swift */,
+			);
+			name = "Login and Signup";
+			sourceTree = "<group>";
+		};
+		2727F57429CC1FA70004118B /* Feed Table View */ = {
+			isa = PBXGroup;
+			children = (
+				2727F56729CBB77A0004118B /* FeedViewController.swift */,
+				2727F56F29CBB7DF0004118B /* PostCell.swift */,
+			);
+			name = "Feed Table View";
+			sourceTree = "<group>";
+		};
+		2727F57529CC1FAD0004118B /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				2727F56929CBB78F0004118B /* PostViewController.swift */,
+			);
+			name = Post;
+			sourceTree = "<group>";
+		};
+		2727F57629CC1FB30004118B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2727F57129CBD18D0004118B /* DateFormatter+Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		2727F57729CC20A20004118B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		27D72B3429CBB30200AC4ACA = {
+			isa = PBXGroup;
+			children = (
+				2727F57A29CC269E0004118B /* README.md */,
+				27D72B3F29CBB30200AC4ACA /* BeReal-Clone */,
+				27D72B3E29CBB30200AC4ACA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27D72B3E29CBB30200AC4ACA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27D72B3D29CBB30200AC4ACA /* BeReal-Clone.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27D72B3F29CBB30200AC4ACA /* BeReal-Clone */ = {
+			isa = PBXGroup;
+			children = (
+				27D72B4029CBB30200AC4ACA /* AppDelegate.swift */,
+				27D72B4229CBB30200AC4ACA /* SceneDelegate.swift */,
+				27D72B5F29CBB6C200AC4ACA /* Models */,
+				2727F57329CC1F9B0004118B /* Login and Signup */,
+				2727F57429CC1FA70004118B /* Feed Table View */,
+				2727F57529CC1FAD0004118B /* Post */,
+				2727F57629CC1FB30004118B /* Extensions */,
+				27D72B4629CBB30200AC4ACA /* Main.storyboard */,
+				27D72B4929CBB30400AC4ACA /* Assets.xcassets */,
+				27D72B4B29CBB30400AC4ACA /* LaunchScreen.storyboard */,
+				27D72B4E29CBB30400AC4ACA /* Info.plist */,
+				2727F57729CC20A20004118B /* Fonts */,
+			);
+			path = "BeReal-Clone";
+			sourceTree = "<group>";
+		};
+		27D72B5F29CBB6C200AC4ACA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2727F56B29CBB7A70004118B /* User.swift */,
+				2727F56D29CBB7B10004118B /* Post.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27D72B3C29CBB30200AC4ACA /* BeReal-Clone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27D72B5129CBB30400AC4ACA /* Build configuration list for PBXNativeTarget "BeReal-Clone" */;
+			buildPhases = (
+				27D72B3929CBB30200AC4ACA /* Sources */,
+				27D72B3A29CBB30200AC4ACA /* Frameworks */,
+				27D72B3B29CBB30200AC4ACA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BeReal-Clone";
+			packageProductDependencies = (
+				27D72B5729CBB5C800AC4ACA /* ParseSwift */,
+				27D72B5A29CBB61D00AC4ACA /* Alamofire */,
+				27D72B5D29CBB62B00AC4ACA /* AlamofireImage */,
+			);
+			productName = "BeReal-Clone";
+			productReference = 27D72B3D29CBB30200AC4ACA /* BeReal-Clone.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27D72B3529CBB30200AC4ACA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					27D72B3C29CBB30200AC4ACA = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 27D72B3829CBB30200AC4ACA /* Build configuration list for PBXProject "BeReal-Clone" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27D72B3429CBB30200AC4ACA;
+			packageReferences = (
+				27D72B5629CBB5C800AC4ACA /* XCRemoteSwiftPackageReference "Parse-Swift" */,
+				27D72B5929CBB61D00AC4ACA /* XCRemoteSwiftPackageReference "Alamofire" */,
+				27D72B5C29CBB62B00AC4ACA /* XCRemoteSwiftPackageReference "AlamofireImage" */,
+			);
+			productRefGroup = 27D72B3E29CBB30200AC4ACA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27D72B3C29CBB30200AC4ACA /* BeReal-Clone */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27D72B3B29CBB30200AC4ACA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27D72B4D29CBB30400AC4ACA /* LaunchScreen.storyboard in Resources */,
+				27D72B4A29CBB30400AC4ACA /* Assets.xcassets in Resources */,
+				27D72B4829CBB30200AC4ACA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27D72B3929CBB30200AC4ACA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2727F56A29CBB78F0004118B /* PostViewController.swift in Sources */,
+				27D72B4529CBB30200AC4ACA /* LoginViewController.swift in Sources */,
+				27D72B4129CBB30200AC4ACA /* AppDelegate.swift in Sources */,
+				2727F56E29CBB7B10004118B /* Post.swift in Sources */,
+				2727F57229CBD18D0004118B /* DateFormatter+Extensions.swift in Sources */,
+				2727F56829CBB77A0004118B /* FeedViewController.swift in Sources */,
+				2727F57029CBB7DF0004118B /* PostCell.swift in Sources */,
+				27D72B5529CBB38800AC4ACA /* SignUpViewController.swift in Sources */,
+				27D72B4329CBB30200AC4ACA /* SceneDelegate.swift in Sources */,
+				2727F56C29CBB7A70004118B /* User.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27D72B4629CBB30200AC4ACA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D72B4729CBB30200AC4ACA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27D72B4B29CBB30400AC4ACA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27D72B4C29CBB30400AC4ACA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27D72B4F29CBB30400AC4ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		27D72B5029CBB30400AC4ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27D72B5229CBB30400AC4ACA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4UJ3NUBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeReal-Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChunSheungNg.BeReal-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27D72B5329CBB30400AC4ACA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FB4UJ3NUBK;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeReal-Clone/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "ChunSheungNg.BeReal-Clone";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27D72B3829CBB30200AC4ACA /* Build configuration list for PBXProject "BeReal-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D72B4F29CBB30400AC4ACA /* Debug */,
+				27D72B5029CBB30400AC4ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27D72B5129CBB30400AC4ACA /* Build configuration list for PBXNativeTarget "BeReal-Clone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27D72B5229CBB30400AC4ACA /* Debug */,
+				27D72B5329CBB30400AC4ACA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		27D72B5629CBB5C800AC4ACA /* XCRemoteSwiftPackageReference "Parse-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/parse-community/Parse-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		27D72B5929CBB61D00AC4ACA /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		27D72B5C29CBB62B00AC4ACA /* XCRemoteSwiftPackageReference "AlamofireImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		27D72B5729CBB5C800AC4ACA /* ParseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D72B5629CBB5C800AC4ACA /* XCRemoteSwiftPackageReference "Parse-Swift" */;
+			productName = ParseSwift;
+		};
+		27D72B5A29CBB61D00AC4ACA /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D72B5929CBB61D00AC4ACA /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		27D72B5D29CBB62B00AC4ACA /* AlamofireImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 27D72B5C29CBB62B00AC4ACA /* XCRemoteSwiftPackageReference "AlamofireImage" */;
+			productName = AlamofireImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 27D72B3529CBB30200AC4ACA /* Project object */;
+}
