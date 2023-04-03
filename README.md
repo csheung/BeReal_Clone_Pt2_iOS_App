@@ -1,8 +1,8 @@
-# Project 5 - *BeReal Clone*
+# Project 6 - *BeReal Pt. 2*
 
 Submitted by: **Chun Sheung Ng (Derrick)**
 
-**BeReal Clone** is an app that clones the interface and functionality of the BeReal mobile application. It allows users to log in, sign up, create posts and browse feeds of all other posts.
+**BeReal Pt. 2** is an app that clones the interface and functionality of the BeReal mobile application. It allows users to log in, sign up, create posts and browse feeds of all other posts. In part 2, some cool BeReal functionality has been added to the App.
 
 Time spent: **5** hours spent in total
 
